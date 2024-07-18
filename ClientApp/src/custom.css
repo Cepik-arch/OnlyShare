@@ -1,0 +1,92 @@
+/* Provide sufficient contrast against white background */
+a {
+  color: #0366d6;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+body {
+    background-color: #EEFBFB;
+}
+
+.icon-edit-question {
+    color: #007cc7;
+    font-size: 48px;
+    cursor: pointer;
+}
+
+.icon-delete-question {
+    color: #007cc7;
+    font-size: 48px;
+    cursor: pointer;
+    margin: 0 0 0 10px;
+}
+
+.icon-edit-answer {
+    color: #203647;
+    font-size: 48px;
+    cursor: pointer;
+    margin: 0 16px 0 0;
+}
+
+.icon-delete-answer {
+    color: #203647;
+    font-size: 48px;
+    cursor: pointer;
+    margin: 0 0 0 16px;
+}
+
+.icon-check-main {
+    font-size: 48px;
+}
+
+.icon-profile {
+    font-size: 48px;
+    cursor: pointer;
+}
+
+.icon-upvote {
+    font-size: 48px;
+    color: #eefbfb;
+    cursor: pointer;
+    margin: 0 16px 30px 0;
+}
+
+.icon-downvote {
+    font-size: 48px;
+    color: #eefbfb;
+    cursor: pointer;
+    margin: 0 0 30px 16px;
+}
+
+.icon-confirm {
+    font-size: 48px;
+    color: #eefbfb;
+    cursor: pointer;
+}
+
+.icon-unconfirm {
+    font-size: 48px;
+    color: #c80004;
+    cursor: pointer;
+}
+
+.icon-add-tag {
+    font-size: 48px;
+    color: #007cc7;
+    cursor: pointer;
+}
+
+.icon-delete-tag {
+    font-size: 32px;
+    color: #007cc7;
+    cursor: pointer;
+}
